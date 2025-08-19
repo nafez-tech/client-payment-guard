@@ -60,13 +60,7 @@ https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/status.txt
 
 define('CPG_STATUS_URL', 'https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/status.txt');
 
-4. تعديل الثيم في الكود
-
-غيّر السطر التالي لاسم مجلد الثيم المستخدم:
-
-define('CPG_THEME_SLUG', 'hello-elementor');
-
-5. التحكم في الموقع
+4. التحكم في الموقع
 
 لتشغيل الموقع: ضع في status.txt كلمة:
 
