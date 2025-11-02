@@ -7,7 +7,7 @@ header('Content-Type: text/html; charset=UTF-8');
 <meta charset="UTF-8">
 <title>Account Suspended</title>
 <style>
-<?php include __DIR__ . '/status-style.css'; ?>
+<?php include __DIR__ . '/suspended-page-style.css'; ?>
 </style>
 </head>
 <body style="background-color: #0e0e12; font-family: Arial, sans-serif;">
