@@ -8,7 +8,7 @@ Author: NafezTech
 
 if (!defined('ABSPATH')) exit;
 
-define('CG_STATUS_URL', 'https://raw.githubusercontent.com/nafez-tech/client-payment-guard/main/status.txt');
+define('CG_STATUS_URL', 'https://raw.githubusercontent.com/nafez-tech/client-payment-guard/wathkon-site-2-11-2025/status.txt');
 define('CG_SYNC_TTL', 60);
 
 add_action('muplugins_loaded', 'cg_bootstrap');
@@ -53,3 +53,4 @@ function cg_maybe_sync_status() {
         set_transient('cg_synced_recently', 1, CG_SYNC_TTL);
     }
 }
+
