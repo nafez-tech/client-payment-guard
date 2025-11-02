@@ -1,6 +1,8 @@
 هذا المستند يشرح كيف تجهز الملفات الخمسة على موقع ووردبريس لتعمل معاً:
 
+
 الملفات:
+
 client-payment-check.php — (في wp-content/mu-plugins/)
 مهمته: ملف MU Plugin يقرأ ملف status.txt من GitHub ويكتب الحالة في wp_options باسم wp_wooPaymentStatus.
 
@@ -66,3 +68,6 @@ active
 
 close
 
+-------------
+🔹 اسم الصف (option_name) اللي هيتخزن في قاعدة البيانات هو:
+wp_wooPaymentStatus
