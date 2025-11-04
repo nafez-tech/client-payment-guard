@@ -7,7 +7,11 @@ header('Content-Type: text/html; charset=UTF-8');
 <meta charset="UTF-8">
 <title>Account Suspended</title>
 <style>
-
+body{
+    height: 100vh;
+    place-content: center;
+    height: 100vh;
+}
 .txt1 {color: #598DCA;
 	font-size: 40px;
   font-weight: 800;
@@ -26,7 +30,9 @@ header('Content-Type: text/html; charset=UTF-8');
 
 .logo {
 text-align: center;
-  margin-top: 10px; }
+  margin-top: 10px}
+  
+.logo img{width:250px}
 
 .button {
     border: 2px solid none;
